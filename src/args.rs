@@ -11,7 +11,7 @@ pub struct Args {
     pub output: String,
 }
 
-impl Args{
+impl Args {
     pub fn new() -> Self {
         Args {
             image_1: get_nth_arg(1),
